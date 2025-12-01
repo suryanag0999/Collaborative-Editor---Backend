@@ -2,26 +2,25 @@
 - A simplified real-time programming web application where  two users can join a room and collaboratively edit code. 
 
 ## Git Repository Structure
-collab-editor/
 │
-├── backend/                     # FastAPI backend
-│   ├── main.py
-│   ├── database.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   └── room.py
-│   ├── routers/
-│   │   ├── __init__.py
-│   │   ├── rooms.py
-│   │   └── autocomplete.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   └── room_service.py
-│   └── websocket/
-│       ├── __init__.py
-│       └── manager.py
-├── .env                         # Database config
-├── requirements.txt             # Python dependencies
+├── backend/ # FastAPI backend
+│ ├── main.py
+│ ├── database.py
+│ ├── models/
+│ │ ├── init.py
+│ │ └── room.py
+│ ├── routers/
+│ │ ├── init.py
+│ │ ├── rooms.py
+│ │ └── autocomplete.py
+│ ├── services/
+│ │ ├── init.py
+│ │ └── room_service.py
+│ └── websocket/
+│ ├── init.py
+│ └── manager.py
+├── .env # Database config
+├── requirements.txt # Python dependencies
 └── README.md
 
 
@@ -87,4 +86,5 @@ POST /autocomplete
   "cursorPosition": 3,
   "language": "python"
 }
+
 
