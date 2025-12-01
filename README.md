@@ -2,8 +2,7 @@
 - A simplified real-time programming web application where  two users can join a room and collaboratively edit code. 
 
 ## Git Repository Structure
-## Git Repository Structure
-collab-editor/
+'''collab-editor/
 │
 ├── backend/                     # FastAPI backend
 │   ├── main.py
@@ -24,7 +23,7 @@ collab-editor/
 ├── .env                         # Database config
 ├── requirements.txt             # Python dependencies
 └── README.md
-
+'''
 ### Project Structure
 **backend/** – FastAPI project
   - **main.py** – Entry point
@@ -87,5 +86,6 @@ POST /autocomplete
   "cursorPosition": 3,
   "language": "python"
 }
+
 
 
